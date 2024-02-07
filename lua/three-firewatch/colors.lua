@@ -1,6 +1,6 @@
 -- Copyright: The authors of https://github.com/folke/tokyonight.nvim
 
-local util = require("tokyonight.util")
+local util = require("three-firewatch.util")
 
 local M = {}
 

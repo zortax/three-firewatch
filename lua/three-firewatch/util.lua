@@ -37,7 +37,7 @@ function M.lighten(hex, amount, fg)
 end
 
 function M.invert_color(color)
-	local hsluv = require("tokyonight.hsluv")
+	local hsluv = require("three-firewatch.hsluv")
 	if color ~= "NONE" then
 		local hsl = hsluv.hex_to_hsluv(color)
 		hsl[3] = 100 - hsl[3]
